@@ -1,28 +1,22 @@
 ---
-import { getPermalink } from '~/utils/permalinks';
+// import { getPermalink } from '~/utils/permalinks';
+import { Icon } from 'astro-icon';
 ---
 
 <div
-	class="hidden md:block bg-primary-100 dark:bg-slate-800 dark:border-slate-800 dark:text-slate-400 border-b border-primary-100 text-sm px-3 py-2 text-gray-800 overflow-hidden whitespace-nowrap text-ellipsis"
+	class="hidden md:flex items-center justify-center bg-primary-100 dark:bg-slate-800 dark:border-slate-800 dark:text-slate-400 border-b border-primary-100 text-sm px-3 py-2 text-gray-800 overflow-hidden whitespace-nowrap text-ellipsis"
 >
-	<span class="text-xs py-0.5 px-1 bg-primary-200 dark:bg-slate-600 font-semibold">NEW</span>
-	<a
-		href={getPermalink('useful-resources-to-create-websites', 'post')}
-		class="hover:underline text-gray-700 dark:text-slate-400"
-		>Useful tools and resources to create a professional website »</a
-	>
-	<a
-		target="_blank"
-		rel="noopener"
-		class="float-right"
-		title="If you like AstroWind, give us a star."
-		href="https://github.com/onwidget/astrowind"
-	>
-		<img
-			src="https://img.shields.io/github/stars/onwidget/astrowind.svg?style=social&label=Stars&maxAge=86400"
-			alt="Follow @onWidget"
-			width="84"
-			height="20"
-		/>
-	</a>
+	<div class="flex gap-5 items-center">
+		<div class="hidden md:flex items-center gap-2">
+			<Icon class="" name="ic:baseline-map" widht={30} height={30} color="#53a510" />
+			Nemuno g . 136, LT-71413, Kukarskės k., Kidulių sen., &nbsp;Šakių r.
+		</div>
+		<a class="hidden md:flex items-center gap-2" href="tel:83456 2300">
+			<Icon name="ic:outline-local-phone" widht={30} height={30} color="#53a510" />
+			(8 345) 62 300
+		</a>
+		<a class="" href="https://www.facebook.com/profile.php?id=100064362083063" target="_blank">
+			<Icon class="rounded-md" name="logos:facebook" widht={30} height={30} />
+		</a>
+	</div>
 </div>
