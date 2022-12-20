@@ -2,11 +2,13 @@
 import { Icon } from 'astro-icon';
 import { getHomePermalink, getRelativeLink } from '~/utils/permalinks';
 
+const currentYear = new Date().getFullYear();
+
 const links = [
 	{
 		title: 'Product',
-		items: [
-			{ title: 'Features', href: '#' },
+		kontaktai: [
+			{ title: 'Tel. (8 345) 62 300' },
 			{ title: 'Security', href: '#' },
 			{ title: 'Team', href: '#' },
 			{ title: 'Enterprise', href: '#' },
@@ -47,14 +49,6 @@ const links = [
 			{ title: 'Shop', href: '#' },
 		],
 	},
-];
-
-const social = [
-	{ label: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-	{ label: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-	{ label: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-	{ label: 'RSS', icon: 'tabler:rss', href: getRelativeLink('/rss.xml') },
-	{ label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
 ];
 ---
 
@@ -99,29 +93,9 @@ const social = [
 			}
 		</div>
 		<div class="md:flex md:items-center md:justify-between py-6 md:py-8">
-			<ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
-				{
-					social.map(({ label, href, icon }) => (
-						<li>
-							<a
-								class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-								aria-label={label}
-								href={href}
-							>
-								<Icon name={icon} class="w-5 h-5" />
-							</a>
-						</li>
-					))
-				}
-			</ul>
-
 			<div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-				<span
-					class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"
-				>
-				</span>
-				Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> ·
-				All rights reserved.
+				{currentYear}
+				Visos teisės saugomos
 			</div>
 		</div>
 	</div>
