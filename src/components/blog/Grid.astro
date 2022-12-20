@@ -2,10 +2,8 @@
 import Item from '~/components/blog/GridItem.astro';
 
 const { posts } = Astro.props;
-// console.log(posts, 'this is our posts');
 ---
 
-<!-- <div class="flex flex-col"> -->
-<div class="">
+<div class="mx-auto">
 	{posts.map((post) => <Item post={post} />)}
 </div>
