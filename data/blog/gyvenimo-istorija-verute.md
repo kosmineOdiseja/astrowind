@@ -1,13 +1,15 @@
 ---
 publishDate: '05 29 2020'
 title: 'Verutė'
-description: 'Lorem ipsum dolor sit amet'
+description: 'gyvenimo istorija Verute'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
 image: '~/assets/images/verute.jpg'
 category: 'Mano gyvenimo istorija'
 # tags: [astro, tailwind css]
 # canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css # When posting content to multiple platforms at the same time (such as this website and Medium) and want to specify the ultimate authority. Remove it to automatically generate canonical
 ---
+
+## Verutės gyvenimo istorija
 
 „Mano tikroji gimtinė yra Ukraina. Mano mama buvo rusė, medikė. Tėvas – ukrainietis, karininkas. Būdama maža, kartu su sese netekom mamos, ji mirė gimdydama trečią vaiką. Po to tėvas kartu su visu frontu važiavo į Lietuvą, į Kazlų Rūdą, tai ir mus kartu čia atsivežė. Tuo metu Lietuvoje kūrėsi tarybų valdžia. Mūsų tėvas negalėjo mūsų prižiūrėt, todėl mes papuolėm į vaikų globos namus. Pradžioje tėvas mus aplankydavo. Atsimenu, kaip jis darbuotojams sakydavo, kad mano ir sesės pavardžių nepakeistų, kad jis galėtų mus rast. Vėliau tėvas mus lankė vis rečiau ir galiausiai jo daugiau ir nebematėm.
 
