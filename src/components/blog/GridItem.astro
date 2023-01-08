@@ -17,10 +17,10 @@ const image = await findImage(post.image);
 				image && (
 					// the list of sized that shoudl be buil dor responsive images.
 					<Picture
-						class="rounded-md object-fit"
+						class="rounded-md object-fit w-full max-w-xs"
 						src={image}
 						widths={[400]}
-						sizes="400px"
+						sizes="500px"
 						alt={post.title}
 						aspectRatio="1:1"
 					/>
@@ -28,11 +28,11 @@ const image = await findImage(post.image);
 			}
 		</div>
 		<h3
-			class="text-xl font-bold leading-snug sm:text-2xl font-headings text-red-500 p-2r absolute mb-5 bg-indigo-600 w-full h-full flex"
+			class="text-2xl font-bold leading-snug sm:text-2xl font-headings p-2r absolute bottom-5 text-cyan-50 hover:text-3xl"
 		>
 			<a
 				href={getPermalink(post.slug, 'post')}
-				class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200 bg-yellow-200"
+				class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
 			>
 				{post.title}
 			</a>
