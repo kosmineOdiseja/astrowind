@@ -16,14 +16,7 @@ const image = await findImage(post.image);
 			{
 				image && (
 					// the list of sized that shoudl be buil dor responsive images.
-					<Picture
-						class="rounded-md object-fit w-full max-w-xs"
-						src={image}
-						widths={[400]}
-						sizes="500px"
-						alt={post.title}
-						aspectRatio="1:1"
-					/>
+					<Picture class="rounded-md" src={image} widths={[375]} sizes="375px" alt={post.title} aspectRatio="1:1" />
 				)
 			}
 		</div>
