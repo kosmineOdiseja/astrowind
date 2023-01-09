@@ -6,21 +6,13 @@ const currentYear = new Date().getFullYear();
 
 const links = [
 	{
-		title: 'Product',
-		kontaktai: [
-			{ title: 'Tel. (8 345) 62 300' },
-			{ title: 'Security', href: '#' },
-			{ title: 'Team', href: '#' },
-			{ title: 'Enterprise', href: '#' },
-			{ title: 'Customer stories', href: '#' },
-			{ title: 'Pricing', href: '#' },
-			{ title: 'Resources', href: '#' },
-		],
+		title: 'kontaktai',
+		kontaktai: [{ title: 'Tel. (8 345) 62 300' }, { title: 'el. paštas' }],
 	},
 	{
-		title: 'Platform',
+		title: 'darbo laikas',
 		items: [
-			{ title: 'Developer API', href: '#' },
+			{ title: 'Nemuno g. 136, LT-71413, Kukarskės k.,', href: '#' },
 			{ title: 'Partners', href: '#' },
 			{ title: 'Atom', href: '#' },
 			{ title: 'Electron', href: '#' },
@@ -54,14 +46,24 @@ const links = [
 
 <footer class="border-t border-gray-200">
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div>
+		<div class="flex justify-between items-center">
+			<div style="">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.0062971721163!2d22.75806672082314!3d55.060625401704144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e6a1631663fe87%3A0xf522c5bf3b84baf6!2zS3VrYXJza8SX!5e0!3m2!1slt!2slt!4v1673291005860!5m2!1slt!2slt"
+					width="650"
+					height="450"
+					style="border:0;"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
 			<!-- <div id="fb-root"></div> -->
 			<div
 				class="fb-page"
 				data-href="https://www.facebook.com/profile.php?id=100064362083063"
 				data-tabs="timeline"
-				data-width=""
-				data-height=""
+				data-width="350"
+				data-height="300"
 				data-small-header="true"
 				data-adapt-container-width="true"
 				data-hide-cover="false"
