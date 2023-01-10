@@ -1,4 +1,5 @@
 ---
+import { Image } from '@astrojs/image/components';
 import { Icon } from 'astro-icon';
 import { getHomePermalink, getRelativeLink } from '~/utils/permalinks';
 
@@ -44,26 +45,46 @@ const links = [
 ];
 ---
 
-<footer class="border-t border-gray-200">
+<footer class="">
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="flex justify-between items-center">
+		<div class="flex flex-col gap-5">
+			<div class="">
+				<a class="" href={getHomePermalink()}>
+					<!-- <Logo /> -->
+					<Image
+						src={import('~/assets/images/kukarske_logo.jpg')}
+						class=""
+						alt="Hero Image"
+						loading="eager"
+						width={195}
+						height={110}
+					/>
+				</a>
+				<div>
+					Kukarskės globos namai įsikūrę Šakių rajone, Kidulių seniūnijoje, Kukarskės kaime, vaizdingoje vietoje šalia
+					Švarcgirio miško ir Nemuno kranto.
+				</div>
+			</div>
+			<div><div>labas darbo laikas</div></div>
 			<div style="">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.0062971721163!2d22.75806672082314!3d55.060625401704144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e6a1631663fe87%3A0xf522c5bf3b84baf6!2zS3VrYXJza8SX!5e0!3m2!1slt!2slt!4v1673291005860!5m2!1slt!2slt"
-					width="650"
+					width="450"
 					height="450"
 					style="border:0;"
 					allowfullscreen=""
 					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"></iframe>
+					referrerpolicy="no-referrer-when-downgrade"
+				>
+				</iframe>
 			</div>
 			<!-- <div id="fb-root"></div> -->
 			<div
-				class="fb-page"
+				class="fb-page text-center"
 				data-href="https://www.facebook.com/profile.php?id=100064362083063"
 				data-tabs="timeline"
 				data-width="350"
-				data-height="300"
+				data-height="450"
 				data-small-header="true"
 				data-adapt-container-width="true"
 				data-hide-cover="false"
@@ -75,7 +96,8 @@ const links = [
 			</div>
 		</div>
 		<div class="md:flex md:items-center md:justify-between py-6 md:py-8">
-			<div class="text-sm text-gray-700 mx-auto">
+			<!-- <div class="text-sm text-gray-700 mx-auto"> -->
+			<div class="text-sm text-gray-700 text-center mx-auto">
 				{currentYear}
 				Visos teisės saugomos
 			</div>
