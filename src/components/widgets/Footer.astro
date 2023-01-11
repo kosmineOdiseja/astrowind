@@ -45,27 +45,36 @@ const links = [
 ];
 ---
 
-<footer class="">
-	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="flex flex-col gap-5">
-			<div class="">
+<footer class="max-w-6xl mx-auto">
+	<div class="">
+		<div class="flex flex-col mx-auto gap-3">
+			<div class="mx-auto">
 				<a class="" href={getHomePermalink()}>
 					<!-- <Logo /> -->
 					<Image
 						src={import('~/assets/images/kukarske_logo.jpg')}
-						class=""
+						class="px-4"
 						alt="Hero Image"
 						loading="eager"
 						width={195}
 						height={110}
 					/>
 				</a>
-				<div>
+				<div class="px-4 text-base font-medium">
 					Kukarskės globos namai įsikūrę Šakių rajone, Kidulių seniūnijoje, Kukarskės kaime, vaizdingoje vietoje šalia
 					Švarcgirio miško ir Nemuno kranto.
 				</div>
 			</div>
-			<div><div>labas darbo laikas</div></div>
+
+			<div class="text-black text-base px-4 flex flex-col gap-1">
+				<div class="text-lg font-semibold my-3">Kontaktai</div>
+				<div class="text-base font-medium">Tel. (8 345) 62 300</div>
+				<div class="text-base font-medium">el.p. kukarskesnamai@gmail.com</div>
+				<div class="text-lg font-semibold my-3">Darbo laikas</div>
+				<div class="text-base font-medium">P – K: 08:00 – 17:00 val.</div>
+				<div class="text-base font-medium">Pn: 08:00 – 15:45 val</div>
+			</div>
+
 			<div style="">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.0062971721163!2d22.75806672082314!3d55.060625401704144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e6a1631663fe87%3A0xf522c5bf3b84baf6!2zS3VrYXJza8SX!5e0!3m2!1slt!2slt!4v1673291005860!5m2!1slt!2slt"
@@ -78,24 +87,24 @@ const links = [
 				>
 				</iframe>
 			</div>
-			<!-- <div id="fb-root"></div> -->
+			<!-- <div id="fb-root"></div>
 			<div
 				class="fb-page text-center"
-				data-href="https://www.facebook.com/profile.php?id=100064362083063"
+				data-href="https://www.facebook.com/facebook"
 				data-tabs="timeline"
 				data-width="350"
-				data-height="450"
-				data-small-header="true"
+				data-height=""
+				data-small-header="false"
 				data-adapt-container-width="true"
 				data-hide-cover="false"
 				data-show-facepile="true"
 			>
-				<blockquote cite="https://www.facebook.com/profile.php?id=100064362083063" class="fb-xfbml-parse-ignore">
-					<a href="https://www.facebook.com/profile.php?id=100064362083063">Kukarskės globos namai</a>
+				<blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore">
+					<a href="https://www.facebook.com/facebook">Facebook</a>
 				</blockquote>
-			</div>
+			</div> -->
 		</div>
-		<div class="md:flex md:items-center md:justify-between py-6 md:py-8">
+		<div class="md:flex md:items-center md:justify-between py-6 md:py-8 text-white">
 			<!-- <div class="text-sm text-gray-700 mx-auto"> -->
 			<div class="text-sm text-gray-700 text-center mx-auto">
 				{currentYear}
