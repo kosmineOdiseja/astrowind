@@ -46,29 +46,26 @@ const links = [
 ---
 
 <footer class="max-w-6xl mx-auto">
-	<div class="">
+	<div class="mx-auto">
 		<div class="flex flex-col mx-auto gap-3">
-			<div class="mx-auto sm:flex sm:flex-row">
-				<!-- logo and text  -->
-				<div class="mx-auto">
+			<div class="mx-4 md:flex md:mx-auto">
+				<div class="max-w-md">
 					<a class="" href={getHomePermalink()}>
-						<!-- <Logo /> -->
 						<Image
 							src={import('~/assets/images/kukarske_logo.jpg')}
-							class="px-4"
+							class=""
 							alt="Hero Image"
 							loading="eager"
 							width={195}
 							height={110}
 						/>
 					</a>
-					<div class="px-4 text-base font-medium max-w-lg">
+					<div class="text-base font-medium">
 						Kukarskės globos namai įsikūrę Šakių rajone, Kidulių seniūnijoje, Kukarskės kaime, vaizdingoje vietoje šalia
 						Švarcgirio miško ir Nemuno kranto.
 					</div>
 				</div>
-
-				<div class="text-black text-base px-4 flex flex-col md:flex-row gap-4 items-center">
+				<div class="text-black text-base items-center lg:flex lg:gap-5 justify-between">
 					<div class="">
 						<div class="text-lg font-semibold my-3">Kontaktai</div>
 						<div class="text-base font-medium">Tel. (8 345) 62 300</div>
