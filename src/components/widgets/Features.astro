@@ -4,41 +4,37 @@ import { Icon } from 'astro-icon';
 const items = [
 	[
 		{
-			title: 'Astro + Tailwind CSS Integration',
+			title: 'Socialinio darbo paslaugos',
 			description:
-				'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+				'Informavimas – informacijos teikimas asmeniui ir jo artimiesiems apie socialinės globos ir kitas paslaugas globos namuose',
 			icon: 'tabler:brand-tailwind',
+			link: '',
 		},
 		{
-			title: 'Ready-to-use Components',
-			description:
-				'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+			title: 'Paslauga 2',
+			description: 'Paslaugos apra6ymas 2',
 			icon: 'tabler:components',
 		},
 		{
-			title: 'Best Practices',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+			title: 'Paslauga 3',
+			description: 'Paslauga 3',
 			icon: 'tabler:list-check',
 		},
 	],
 	[
 		{
-			title: 'Excellent Page Speed',
-			description:
-				'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+			title: 'Paslauga 4',
+			description: 'Paslauga 4',
 			icon: 'tabler:rocket',
 		},
 		{
-			title: 'Search Engine Optimization (SEO)',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+			title: 'Paslauga 5',
+			description: 'Paslauga 5 ',
 			icon: 'tabler:arrows-right-left',
 		},
 		{
-			title: 'Open to new ideas and contributions',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+			title: 'Paslauga 6',
+			description: 'Paslauga aprašymas',
 			icon: 'tabler:bulb',
 		},
 	],
@@ -48,14 +44,10 @@ const items = [
 <section class="scroll-mt-16" id="features">
 	<div class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20">
 		<div class="mb-10 md:mx-auto sm:text-center md:mb-12 max-w-3xl">
-			<p class="text-base text-primary-600 dark:text-primary-200 font-semibold tracking-wide uppercase">Features</p>
 			<h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-				What you get with <span class="whitespace-nowrap">AstroWind</span>
+				<span class="whitespace-nowrap">Kurkarskėje teikiamos paslaugos</span>
 			</h2>
-			<p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa
-				quae.
-			</p>
+			<!-- <p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400"></p> -->
 		</div>
 		<div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
 			{
@@ -69,8 +61,11 @@ const items = [
 									</div>
 								</div>
 								<div>
-									<h3 class="mb-3 text-xl font-bold">{title}</h3>
+									<h3 class="mb-3 text-xl font-bold">{title} </h3>
 									<p class="text-gray-600 dark:text-slate-400">{description}</p>
+								</div>
+								<div>
+									<button class="bg-green mx-auto px-5">plačiau</button>
 								</div>
 							</div>
 						))}

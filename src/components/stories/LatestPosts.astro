@@ -1,7 +1,7 @@
 ---
-import Grid from '~/components/blog/Grid.astro';
+import Grid from '~/components/stories/Grid.astro';
 
-import { findLatestPosts } from '~/utils/posts';
+import { findLatestPosts } from '~/utils/stories';
 
 const count = 4;
 const posts = await findLatestPosts({ count });

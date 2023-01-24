@@ -1,7 +1,7 @@
 import rss from '@astrojs/rss';
 
 import { SITE, BLOG } from '~/config.mjs';
-import { fetchPosts } from '~/utils/posts';
+import { fetchPosts } from '~/utils/stories';
 import { getPermalink } from '~/utils/permalinks';
 
 export const get = async () => {
@@ -15,7 +15,7 @@ export const get = async () => {
 	const posts = await fetchPosts();
 
 	return rss({
-		title: `${SITE.name}’s Blog`,
+		title: `${SITE.name}’s Story`,
 		description: SITE.description,
 		site: import.meta.env.SITE,
 
