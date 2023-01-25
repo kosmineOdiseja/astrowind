@@ -1,3 +1,21 @@
-<div class="mx-auto">
-	<div>Labas Blog posts</div>
+---
+import Grid from '~/components/stories/Grid.astro';
+import { findPostsByIds } from '~/utils/stories';
+
+const ids = [
+	'gyvenimo-istorija-verute',
+	'how-to-customize-astrowind-to-your-brand',
+	'useful-resources-to-create-websites',
+];
+
+const posts = await findPostsByIds(ids);
+---
+
+<div class="mx-auto max-w-6xl bg-slate-500">
+	<div class="mx-auto">
+		<h2>
+			<span>Dienoraštis</span>
+		</h2>
+		<Grid posts={posts} />
+	</div>
 </div>
