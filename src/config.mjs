@@ -18,7 +18,7 @@ export const BLOG = {
 
 	blog: {
 		disabled: false,
-		pathname: 'storie', // blog main path, you can change this to "articles" (/articles)
+		pathname: 'blog', // blog main path, you can change this to "articles" (/articles)
 	},
 
 	post: {

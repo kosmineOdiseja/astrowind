@@ -2,10 +2,12 @@
 import { SITE, BLOG } from '~/config.mjs';
 
 import Layout from '~/layouts/BlogLayout.astro';
-import BlogList from '~/components/blog/List.astro';
+// import BlogList from '~/components/blog/List.astro';
+import BlogList from '~/components/stories/List.astro';
 import Pagination from '~/components/atoms/Pagination.astro';
 
-import { fetchPosts } from '~/utils/posts';
+// import { fetchPosts } from '~/utils/posts';
+import { fetchPosts } from '~/utils/stories';
 import { getCanonical, getPermalink, cleanSlug, TAG_BASE } from '~/utils/permalinks';
 
 export async function getStaticPaths({ paginate }) {
