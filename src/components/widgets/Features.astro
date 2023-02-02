@@ -11,29 +11,29 @@ const items = [
 			link: '',
 		},
 		{
-			title: 'Paslauga 2',
+			title: 'Sveikatos priežiūros paslaugos',
 			description: 'Paslaugos apra6ymas 2',
 			icon: 'tabler:components',
 		},
 		{
-			title: 'Paslauga 3',
+			title: 'Maitinimas',
 			description: 'Paslauga 3',
 			icon: 'tabler:list-check',
 		},
 	],
 	[
 		{
-			title: 'Paslauga 4',
+			title: 'Apgyvendinimas',
 			description: 'Paslauga 4',
 			icon: 'tabler:rocket',
 		},
 		{
-			title: 'Paslauga 5',
+			title: 'Priėmimo tvarka',
 			description: 'Paslauga 5 ',
 			icon: 'tabler:arrows-right-left',
 		},
 		{
-			title: 'Paslauga 6',
+			title: 'Terapinės rekreacijos paslaugos',
 			description: 'Paslauga aprašymas',
 			icon: 'tabler:bulb',
 		},
@@ -54,18 +54,20 @@ const items = [
 				items.map((subitems) => (
 					<div class="space-y-8 sm:px-8">
 						{subitems.map(({ title, description, icon }) => (
-							<div class="flex flex-row max-w-md">
-								<div class="mb-4 mr-4">
-									<div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary-500 dark:bg-primary-700">
-										{icon && <Icon name={icon} class="w-6 h-6 text-white icon-light" />}
+							<div class="flex flex-row max-w-md bg-blue-400 ">
+								<div>
+									<div class="mb-4 mr-4 bg-green-500">
+										<div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary-500 dark:bg-primary-700">
+											{icon && <Icon name={icon} class="w-6 h-6 text-white icon-light" />}
+										</div>
+									</div>
+									<div class="bg-yellow-300">
+										<h3 class="mb-3 text-xl font-bold">{title} </h3>
+										<p class="text-gray-600 dark:text-slate-400">{description}</p>
 									</div>
 								</div>
-								<div>
-									<h3 class="mb-3 text-xl font-bold">{title} </h3>
-									<p class="text-gray-600 dark:text-slate-400">{description}</p>
-								</div>
-								<div>
-									<button class="bg-green mx-auto px-5">plačiau</button>
+								<div class="">
+									<button class="bg-black mx-auto px-5">plačiau</button>
 								</div>
 							</div>
 						))}
