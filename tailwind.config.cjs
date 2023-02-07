@@ -15,15 +15,15 @@ module.exports = {
 		},
 	},
 	plugins: [require('@tailwindcss/typography')],
-	darkMode: 'class',
+	// darkMode: 'class',
 };
 
-/* 
+/*
 
   Alternative tailwind.config.js
-  
+
   NOTE: Add this fonts to <head>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet" />
 */
 
 // module.exports = {
