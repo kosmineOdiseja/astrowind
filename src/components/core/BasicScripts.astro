@@ -3,6 +3,7 @@ import { SITE } from '~/config.mjs';
 ---
 
 <script is:inline define:vars={{ defaultTheme: SITE.defaultTheme }}>
+	// delete line bellow to the comment here
 	function applyTheme(theme) {
 		if (theme === 'dark') {
 			document.documentElement.classList.add('dark');
@@ -31,6 +32,7 @@ import { SITE } from '~/config.mjs';
 			});
 		}
 	}
+	// here
 
 	window.onload = function () {
 		let lastKnownScrollPosition = 0;
@@ -43,6 +45,8 @@ import { SITE } from '~/config.mjs';
 			document.querySelector('#header nav')?.classList.toggle('hidden');
 		});
 
+		// delete blow to next comment
+
 		attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
 			if (defaultTheme.endsWith(':only')) {
 				return;
@@ -50,6 +54,8 @@ import { SITE } from '~/config.mjs';
 			document.documentElement.classList.toggle('dark');
 			localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
 		});
+
+		//  here
 
 		attachEvent('[data-aw-social-share]', 'click', function (_, elem) {
 			const network = elem.getAttribute('data-aw-social-share');
