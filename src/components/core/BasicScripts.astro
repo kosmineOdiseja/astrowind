@@ -24,7 +24,8 @@ import { SITE } from '~/config.mjs';
 	}
 
 	function attachEvent(selector, event, fn) {
-		console.log(selector);
+		// one console log here
+		// console.log(selector, 'tis is selector');
 		const matches = typeof selector === 'string' ? document.querySelectorAll(selector) : selector;
 		if (matches && matches.length) {
 			matches.forEach((elem) => {
