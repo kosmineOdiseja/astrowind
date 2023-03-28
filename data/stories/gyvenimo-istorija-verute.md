@@ -17,8 +17,8 @@ Nepamenu, bet kažkaip važiuojant į Lietuvą dingo mano visi tapatybės dokume
 
 Taip susiklostė, kad kai išėjau 7 klases, ištekėjau ir apsigyvenau Gelgaudišky, kuriam ir toliau klostėsi mano visas gyvenimas. Pirmiausiai gimė sūnus, po to ir dukra. Gyvenime visuomet buvau be galo darbšti, nevengiau mokslo. Augindama vaikus mokiausi bibliotekininkystės. Aš dirbau kooperatyvo buhaltere-revizore, kurį laiką kultūros namų direktore, vėliau auklėtoja vaikų darželyje, miestelio vidurinėje mokykloje dirbau sekretore, buhaltere. Vėliau įsidarbinau sekretore ir rajono švietimo skyriuje. Visuomet stengiausi dirbti gerai, buvau tikrai gera darbuotoja. Visi mano darbdaviai džiaugėsi mano darbu, vertino ir mylėjo mane. Išėjus į pensiją, vedžiau didelį ūkį: laikiau nemažai gyvulių, paukščių, turėjau didelį sodą, gėlyną. Viskuo rūpinausi pati. Taip pat buvau aktyvi kultūrinėj veikloj. Lankiau aktyviai Gelgaudiškio ir Šakių kultūros namus. Ir pagrodavau, ir padainuodavau. Mėgau visą gyvenimą kurti eiles. Labai norėjau išleisti savo eilėraščių knygą, bet taip ir nepavyko. Mirus vyrui, silpnėjant mano pačios sveikatai, atsisakiau ūkio. Po to atsisakiau kultūrinės veiklos. Gyventi vienai namuose tapo per sunku, todėl sugalvojau atvykti gyventi į šituos globos namus. Esu patenkinta savo gyvenimu ir praeitimi. Tikriausiai nelabai ir ką keisčiau. Tik su tokiu vyru negyvenčiau. Nepasisekė man su vyru, daug kentėjau. Na, o gyvendama kažkaip visada rėmiausi šita taisykle:
 
-Ne tas laimingas, kuris turtingas,
+\*Ne tas laimingas, kuris turtingas,
 
 Ne tas laimingas, kuris gražus,
 
-Bet tas laimingas, kurio gyvenimas – prasmingas“.
+Bet tas laimingas, kurio gyvenimas – prasmingas“.\*
