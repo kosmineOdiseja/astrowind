@@ -20,8 +20,6 @@ const items = [
 			description: 'Paslauga 3',
 			icon: 'tabler:list-check',
 		},
-	],
-	[
 		{
 			title: 'Apgyvendinimas',
 			description: 'Paslauga 4',
@@ -84,36 +82,23 @@ const items = [
 	<div class="mx-auto flex flex-col gap-3 px-4 bg-slate-400 py-4">
 		{
 			items.map((subitems) => (
-				<div class="bg-green-400 rounded-lg shadow-md p-6 text-center">
-					{subitems.map(({ title, description, icon }) => (
-						<div class="flex flex-row max-w-md bg-blue-400 ">
-							<div>
-								<div class="mb-4 mr-4 bg-green-500">
-									<div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary-500 dark:bg-primary-700">
-										{icon && <Icon name={icon} class="w-6 h-6 text-white icon-light" />}
-									</div>
-								</div>
-								<div class="bg-yellow-300">
-									<h3 class="mb-3 text-xl font-bold">{title} </h3>
-									<p class="text-gray-600 dark:text-slate-400">{description}</p>
-								</div>
-							</div>
-
-							<div class="">
-								<button class="bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-									Peržiūrėti paslaugą
-								</button>
-							</div>
+				<div class="bg-green-400 rounded-lg shadow-md p-6 text-center flex flex-col gap-5">
+					{subitems.map(({ title, description }) => (
+						<div class="max-w-md bg-blue-400 flex flex-col gap-3">
+							<h3 class="mb-3 text-xl font-bold">{title} </h3>
+							<p class="text-white ">{description}</p>
+							<a href="#" class="bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+								Peržiūrėti paslaugą
+							</a>
 						</div>
 					))}
 				</div>
 			))
 		}
-
-		<div class="bg-green-400 rounded-lg shadow-md p-6 text-center">
+		<!-- <div class="bg-green-400 rounded-lg shadow-md p-6 text-center">
 			<h2 class="text-lg font-bold mb-4">Paslaugos pavadinimas</h2>
 			<a href="#" class="bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"> Peržiūrėti paslaugą</a>
-		</div>
+		</div> -->
 	</div>
 	<!-- https://codepen.io/wikyware-net/pen/dyKPRxQ -->
 </section>
