@@ -6,33 +6,39 @@ const items = [
 		{
 			title: 'Socialinio darbo paslaugos',
 			description:
-				'Informavimas – informacijos teikimas asmeniui ir jo artimiesiems apie socialinės globos ir kitas paslaugas globos namuose',
+				'Socialinis darbas - jūsų artimųjų gerovės raktas: Mes suprantame, kad jūsų senjorių tėvai ar artimieji yra jums svarbūs ir jūs norite, kad jie turėtų geriausią priežiūrą. Socialinis darbas yra raktas gerovei ir laimės jų gyvenime. Mūsų profesionalai gali pasirūpinti jų kasdieniniais reikalavimais, užtikrinti, kad jie susijungtų su bendruomene ir turėtų palaikymą, kad jie galėtų gyventi patenkinti ir laimingai.',
 			icon: 'tabler:brand-tailwind',
 			link: '',
 		},
 		{
 			title: 'Sveikatos priežiūros paslaugos',
-			description: 'Paslaugos apra6ymas 2',
+			description:
+				'Jūsų sveikata yra mūsų prioritetas: Mes suprantame, kad jūsų sveikata yra jūsų svarbiausia turtas. Mes esame čia, kad padėtume jums rūpintis savo kūno ir protų sveikata. Mūsų sveikatos priežiūros specialistai gali padėti jums išlaikyti sveiką gyvenimo būdą, teikti rekomendacijas dėl mitybos, fizinės veiklos ir sveikatos priežiūros procedūrų',
 			icon: 'tabler:components',
 		},
 		{
 			title: 'Maitinimas',
-			description: 'Paslauga 3',
+			description:
+				'Speciali priežiūra: Mes pasiruošę teikti specialią maitinimo priežiūrą, kad užtikrintume jūsų patogumą ir komfortą. Mūsų darbuotojai pasiruošę padėti jums su maisto pasirinkimu, patiekalų pasiruošimu ir papildomomis reikmėmis, kad jūs galėtumėte jaustis patogiai ir saugiai. Maitinimo paslaugos - daugiau nei tik maistas: Mes suprantame, kad maitinimo paslaugos yra daugiau nei tik maisto produktai. Tai taip pat yra socialinis renginys, kuriame susitinkate su kitais žmonėmis, bendraujate ir praleidžiate laiką. Mes pasiruošę sukurti jaukią ir draugišką aplinką, kad jūs galėtumėte jaustis kaip namuose',
 			icon: 'tabler:list-check',
 		},
+
 		{
 			title: 'Apgyvendinimas',
-			description: 'Paslauga 4',
+			description:
+				'Sveika ir saugi aplinka: Mes stengiamės sukurti sveiką ir saugią aplinką, kuri padeda palaikyti jūsų gerovę ir sveikatą. Mes reguliariai atliekame kambarių tvarkymą, užtikriname, kad būtų laikomasi higienos reikalavimų ir saugumo taisyklių.',
 			icon: 'tabler:rocket',
 		},
 		{
 			title: 'Priėmimo tvarka',
-			description: 'Paslauga 5 ',
+			description:
+				'Sąžiningas ir skaidrus procesas: Mes stengiamės užtikrinti, kad mūsų klientams teikiamos paslaugos būtų sąžiningos ir skaidrios. Mes atsakingai tvarkome visus dokumentus ir sutartis, kad klientai galėtų tikėtis skaidrumo ir sąžiningumo. ',
 			icon: 'tabler:arrows-right-left',
 		},
 		{
 			title: 'Terapinės rekreacijos paslaugos',
-			description: 'Paslauga aprašymas',
+			description:
+				'Mes pritaikome veiklas prie kiekvieno kliento unikalių poreikių ir gebėjimų, siekdami užtikrinti jų fizinę ir psichologinę gerovę. Mūsų veiklos gali būti pritaikytos įvairioms lėtinių ligų, tokias kaip insultas, Alzheimerio liga, Parkinsono liga, ar fizinės negalios, būsenoms.',
 			icon: 'tabler:bulb',
 		},
 	],
@@ -75,19 +81,19 @@ const items = [
 </section> --><!-- <section class="scroll-mt-16" id="features"> --><!-- <section class="mx-auto max-w-6xl md:flex md:flex-row md:justify-between md:items-center"> --><!-- <section class="mx-5 max-w-6xl md:flex md:flex-row md:justify-between md:items-center"> -->
 <section class="flex flex-col gap-5">
 	<h2 class="text-2xl md:text-5xl font-bold mb-4 font-heading mx-auto">
-		<span class="flex justify-center items-center text-white">Kurkarskėje teikiamos paslaugos</span>
+		<span class="flex justify-center items-center text-black">Kurkarskėje teikiamos paslaugos</span>
 	</h2>
 
 	<!-- <div class="flex gap-5 flex-col mx-auto py-7"> -->
-	<div class="mx-auto flex flex-col gap-3 px-4 bg-slate-400 py-4">
+	<div class="mx-auto flex flex-col gap-3 px-4 py-4">
 		{
 			items.map((subitems) => (
-				<div class="bg-green-400 rounded-lg shadow-md p-6 text-center flex flex-col gap-5">
+				<div class=" rounded-lg shadow-md p-6 text-center flex flex-col gap-5">
 					{subitems.map(({ title, description }) => (
-						<div class="max-w-md bg-blue-400 flex flex-col gap-3">
-							<h3 class="mb-3 text-xl font-bold">{title} </h3>
-							<p class="text-white ">{description}</p>
-							<a href="#" class="bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+						<div class="max-w-md flex flex-col gap-3 py-4 shadow-xl">
+							<h3 class="mb-3 text-xl font-bold text-black">{title} </h3>
+							<p class="text-black ">{description}</p>
+							<a href="#" class="bg-green-400/50  hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
 								Peržiūrėti paslaugą
 							</a>
 						</div>
