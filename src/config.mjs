@@ -6,7 +6,7 @@ export const SITE = {
 	trailingSlash: false,
 
 	title: 'Kukarskė - globos namai',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	description: 'Kukarskės globos namai',
 
 	defaultTheme: 'light', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
